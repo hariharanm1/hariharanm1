@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial;
+    background-color: antiquewhite;
+}
+.navbar{
+    background-color:rgb(93, 89, 89);
+    color: aliceblue;
+    width: 100%;
+    height: 100px;
+    /* margin-top: 50px; */
+}
+.navbar h1{
+    /* coblack ; */
+    position: absolute;
+    top: 30px;
+    left: 15px;
+}
+.navbar h1:hover{
+    color: orange;
+    box-shadow: 0px 0px 4px 4px;
+}
+.tab{
+    position: absolute;
+    left: 900px;
+    top: 17px;
+}
+
+.tab ul{
+    display: flex;
+}
+.tab li{
+    margin: 20px;
+    list-style: none;
+
+}
+.tab ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+    
+}
+.tab a:hover{
+    color: orange; 
+    transition: 0.6s ease;
+    box-shadow: 0px 0px 2px 2px;
+    text-decoration: underline;
+
+}
+.icon ul{
+    display: flex;
+}
+.icon ul li{
+    margin: 10px;
+    
+    list-style: none;
+}
+.icon{
+    position: absolute;
+    left: 1160px;
+    top: 60px;
+}
+#home{
+    position: absolute;
+    top: 0px;
+    left: -270px;
+    top: -30px; 
+}
+
+.fa-brands,.fa-sharp{
+    width: 25px;
+    height: 25px;
+    color: black;
+    /* background-color: aliceblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:50%;    
+}
+
+.fa-brands:hover,.fa-sharp:hover{
+    color:aliceblue; 
+    /* background-color: aliceblue; */
+    transition: 0.4s ease;
+    box-shadow: 0px 0px 4px 4px;
+
+}
+.home{
+  font-weight: bold; 
+}
+@media only screen and(max-width:980px){
+    .navbar{
+        height: 118px;
+        border-bottom: 0;
+    }
+    .tab{
+        width: 100%;
+    }
+    .tab ul{
+        width: 100%;
+    }
+    .tab ul li{
+        width: 100%;
+    }
+
+}
